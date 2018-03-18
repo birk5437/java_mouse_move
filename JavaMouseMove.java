@@ -24,6 +24,7 @@ public class JavaMouseMove {
             // robot.mouseMove(667,571);
             // robot.delay(100);
             for(int i = 0; i < 10; i++){
+                System.out.println("Moving mouse and stuff!");
                 for (int y = 520; y < 700; y+=80){
                     robot.mouseMove(667,y);
                     if(y==600){
